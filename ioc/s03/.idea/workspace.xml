@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66d2c78a-9d8a-43f8-8381-fd7412043d36" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dsh0NKvube80zrdJQ5r6JHqrIf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/tech/lvjiawen/spring/entity" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/tech/lvjiawen/spring/entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringApplication (1)">
+    <configuration name="SpringApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.lvjiawen.spring.ioc.SpringApplication" />
+      <module name="s03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.lvjiawen.spring.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.lvjiawen.spring.SpringApplication" />
+      <module name="s03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.lvjiawen.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringApplication (1)" />
+        <item itemvalue="Application.SpringApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66d2c78a-9d8a-43f8-8381-fd7412043d36" name="默认更改列表" comment="" />
+      <created>1593219483243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593219483243</updated>
+      <workItem from="1593219486962" duration="1325000" />
+      <workItem from="1593225203144" duration="904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1232" height="268" key="GridCell.Tab.0.bottom" timestamp="1593226136296">
+      <screen x="62" y="23" width="2498" height="1057" />
+    </state>
+    <state width="1232" height="268" key="GridCell.Tab.0.bottom/60.23.2500.1057/260.1080.1920.1200@60.23.2500.1057" timestamp="1593220814910" />
+    <state width="1232" height="268" key="GridCell.Tab.0.bottom/62.23.2498.1057/260.1080.1920.1200@62.23.2498.1057" timestamp="1593226136296" />
+    <state width="1232" height="268" key="GridCell.Tab.0.center" timestamp="1593226136295">
+      <screen x="62" y="23" width="2498" height="1057" />
+    </state>
+    <state width="1232" height="268" key="GridCell.Tab.0.center/60.23.2500.1057/260.1080.1920.1200@60.23.2500.1057" timestamp="1593220814909" />
+    <state width="1232" height="268" key="GridCell.Tab.0.center/62.23.2498.1057/260.1080.1920.1200@62.23.2498.1057" timestamp="1593226136295" />
+    <state width="1232" height="268" key="GridCell.Tab.0.left" timestamp="1593226136295">
+      <screen x="62" y="23" width="2498" height="1057" />
+    </state>
+    <state width="1232" height="268" key="GridCell.Tab.0.left/60.23.2500.1057/260.1080.1920.1200@60.23.2500.1057" timestamp="1593220814909" />
+    <state width="1232" height="268" key="GridCell.Tab.0.left/62.23.2498.1057/260.1080.1920.1200@62.23.2498.1057" timestamp="1593226136295" />
+    <state width="1232" height="268" key="GridCell.Tab.0.right" timestamp="1593226136295">
+      <screen x="62" y="23" width="2498" height="1057" />
+    </state>
+    <state width="1232" height="268" key="GridCell.Tab.0.right/60.23.2500.1057/260.1080.1920.1200@60.23.2500.1057" timestamp="1593220814909" />
+    <state width="1232" height="268" key="GridCell.Tab.0.right/62.23.2498.1057/260.1080.1920.1200@62.23.2498.1057" timestamp="1593226136295" />
+    <state x="1293" y="185" key="NewModule_or_Project.wizard" timestamp="1593220803878">
+      <screen x="60" y="23" width="2500" height="1057" />
+    </state>
+    <state x="1293" y="185" key="NewModule_or_Project.wizard/60.23.2500.1057/260.1080.1920.1200@60.23.2500.1057" timestamp="1593220803878" />
+    <state x="1154" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593219749823">
+      <screen x="62" y="23" width="2498" height="1057" />
+    </state>
+    <state x="1154" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.23.2498.1057/260.1080.1920.1200@62.23.2498.1057" timestamp="1593219749823" />
+    <state x="438" y="185" key="new project wizard" timestamp="1593226133415">
+      <screen x="62" y="23" width="2498" height="1057" />
+    </state>
+    <state x="438" y="185" key="new project wizard/62.23.2498.1057/260.1080.1920.1200@62.23.2498.1057" timestamp="1593226133415" />
+  </component>
+</project>

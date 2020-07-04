@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="sweetApple" class="tech.lvjiawen.spring.ioc.entity.Apple">
+        <property name="title" value="红富士"></property>
+        <property name="origin" value="欧洲"></property>
+        <property name="color" value="红色"></property>
+    </bean>
+
+    <bean id="sourApple" class="tech.lvjiawen.spring.ioc.entity.Apple">
+        <property name="title" value="青苹果"></property>
+        <property name="origin" value="中亚"></property>
+        <property name="color" value="绿色"></property>
+    </bean>
+
+    <bean id="softApple" class="tech.lvjiawen.spring.ioc.entity.Apple">
+        <property name="title" value="金帅"></property>
+        <property name="origin" value="中国"></property>
+        <property name="color" value="黄色"></property>
+    </bean>
+
+    <bean id="lily" class="tech.lvjiawen.spring.ioc.entity.Child">
+        <property name="name" value="lily"></property>
+        <property name="apple" ref="sweetApple"></property>
+    </bean>
+
+    <bean id="andy" class="tech.lvjiawen.spring.ioc.entity.Child">
+        <property name="name" value="andy"></property>
+        <property name="apple" ref="sourApple"></property>
+    </bean>
+
+    <bean id="luna" class="tech.lvjiawen.spring.ioc.entity.Child">
+        <property name="name" value="luna"></property>
+        <property name="apple" ref="softApple"></property>
+    </bean>
+
+    <bean id="clothes1" class="tech.lvjiawen.spring.ioc.entity.Clothes">
+        <property name="color" value="红色"></property>
+        <property name="style" value="连衣裙"></property>
+    </bean>
+
+    <bean id="clothes2" class="tech.lvjiawen.spring.ioc.entity.Clothes">
+        <property name="color" value="蓝色"></property>
+        <property name="style" value="小西装"></property>
+    </bean>
+
+    <bean id="girl" class="tech.lvjiawen.spring.ioc.entity.Person">
+        <property name="name" value="女孩"></property>
+        <property name="clothes" ref="clothes1"></property>
+    </bean>
+    <bean id="boy" class="tech.lvjiawen.spring.ioc.entity.Person">
+        <property name="name" value="男孩"></property>
+        <property name="clothes" ref="clothes2"></property>
+    </bean>
+</beans>
