@@ -1,14 +1,26 @@
 package tech.lvjiawen.spring.ioc.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import tech.lvjiawen.spring.ioc.dao.IUserDao;
 
+import javax.annotation.PostConstruct;
+
 @Service
+@Scope("prototype")
 public class UserService {
+    @Value("${metaData}")
+    private String metaData;
 
     public UserService() {
         System.out.println("正在创建 UserService:" + this);
+    }
+
+    @PostConstruct
+    public void init() {
+        System.out.println("初始化 UserService 对象，metadata = " + metaData);
     }
 
     @Autowired
