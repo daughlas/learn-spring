@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RESTful 实验室</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $(".btn").click(function(e) {
+                var method = this.dataset.method
+                if (method === 'post' || method === 'put') {
+                    return;
+                }
+                $.ajax({
+                    url: "/restful/request" + (method === "post" ? "/100" : ""),
+                    type: method,
+                    data: "name=lyly&age=23",
+                    dataType: "json",
+                    success: function(json) {
+                        if (!json.id) {
+                            $("#message").text(json.message);
+                        } else {
+                            $("#message").text(json.message + ';' + json.id)
+                        }
+
+
+                    }
+                })
+            })
+
+            $("#btnPost").click(function(e) {
+                $.ajax({
+                    url: "/restful/request/100",
+                    type: 'post',
+                    data: "name=lyly&age=23",
+                    dataType: "json",
+                    success: function(json) {
+                        if (!json.id) {
+                            $("#message").text(json.message);
+                        } else {
+                            $("#message").text(json.message + ';' + json.id)
+                        }
+                    }
+                })
+            })
+
+            $("#btnPut").click(function(e) {
+                $.ajax({
+                    url: "/restful/request",
+                    type: 'put',
+                    data: "name=lyly&age=23",
+                    dataType: "json",
+                    success: function(json) {
+                        if (!json.id) {
+                            $("#message").text(json.message);
+                        } else {
+                            $("#message").text(json.message + ';' + json.id)
+                        }
+
+
+                    }
+                })
+            })
+
+            $("#btnPersons").click(function(e) {
+                $.ajax({
+                    url: "/restful/persons",
+                    type: 'get',
+                    dataType: "json",
+                    success: function(json) {
+                        console.info(json);
+                        for (var i = 0; i < json.length; i++) {
+                            var p = json[i];
+                            $("#divPersons").append("<h2>" + p.name + "-" + p.age + "-" + p.birthday + "</h2>")
+                        }
+                    }
+                })
+            })
+        })
+
+    </script>
+</head>
+<body>
+<input class="btn" type="button" id="btnGet" data-method="get" value="发送 Get 请求">
+<input class="btn" type="button" id="btnPost" data-method="post"  value="发送 Post 请求">
+<input class="btn" type="button" id="btnPut" data-method="put"  value="发送 Put 请求">
+<input class="btn" type="button" id="btnDelete" data-method="delete"  value="发送 Delete 请求">
+
+<h1 id="message"></h1>
+<input  type="button" id="btnPersons" value="查询所有人员"/>
+<div id="divPersons"></div>
+</body>
+</html>
